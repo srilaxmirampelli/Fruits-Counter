@@ -1,0 +1,76 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.fruits-counter-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffd569;
+}
+.fruits-counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  border-width: 0;
+  width: 80vw;
+  max-height: 90vh;
+  padding: 20px;
+}
+.sub-heading {
+  font-family: 'Bree Serif';
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.heading {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.fruit-count {
+  font-family: 'Roboto';
+  color: #ffd569;
+}
+.image {
+  width: 150px;
+  height: auto;
+}
+.fruits-image-card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: bold;
+  background-color: #007bff;
+  padding: 10px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 15px;
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
